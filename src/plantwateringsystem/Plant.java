@@ -1,36 +1,48 @@
 package plantwateringsystem;
 
+enum MoistureLevel {
+    DRY,
+    MOIST,
+    WET
+}
+
+enum PlantType {
+    INDOOR,
+    OUTDOOR
+}
+
 public class Plant {
-    //attributes / fields / variables
+    // attributes
     private String name;
-    private int moistureLevel;
-    private String plantType;
+    private MoistureLevel moistureLevel;
+    private PlantType plantType;
 
-    //constructor
-    public Plant(String plantType) {
-        name = "";
-        moistureLevel = 0;
+    // constructor
+    public Plant(String name, PlantType plantType, MoistureLevel initialMoisture) {
+        this.name = name;
+        this.moistureLevel = initialMoisture;
         this.plantType = plantType;
-
     }
-    // methods
-    //getters
-    public String getName(){
+
+    // getters
+    public String getName() {
         return name;
     }
-    public int getMoistureLevel(){
+
+    public MoistureLevel getMoistureLevel() {
         return moistureLevel;
     }
-    public String getPlantType(){
+
+    public PlantType getPlantType() {
         return plantType;
     }
 
-    //setters
-    public void setName(String name){
+    // setters
+    public void setName(String name) {
         this.name = name;
     }
-    public void setMoistureLevel(int moistureLevel){
+
+    public void setMoistureLevel(MoistureLevel moistureLevel) {
         this.moistureLevel = moistureLevel;
     }
-
 }
