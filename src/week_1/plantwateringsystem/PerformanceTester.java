@@ -1,4 +1,4 @@
-package plantwateringsystem;
+package week_1.plantwateringsystem;
 
 import java.util.ArrayList;
 import java.util.Random;

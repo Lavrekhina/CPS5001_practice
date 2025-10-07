@@ -1,3 +1,5 @@
+package week_2;
+
 public class PrimeChecker {
 
     // Method to check if a number is prime (brute force)

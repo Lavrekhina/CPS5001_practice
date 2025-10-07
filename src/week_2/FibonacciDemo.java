@@ -1,3 +1,5 @@
+package week_2;
+
 public class FibonacciDemo {
 
     // Naive recursion

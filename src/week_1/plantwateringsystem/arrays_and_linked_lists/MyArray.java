@@ -1,4 +1,4 @@
-package arrays_and_linked_lists;
+package week_1.plantwateringsystem.arrays_and_linked_lists;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Circular_Linked_List;
+package week_1.plantwateringsystem.Circular_Linked_List;
 
 public class CircularNode {
     int data;

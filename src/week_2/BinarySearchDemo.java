@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package week_2;
 
 public class BinarySearchDemo {
 

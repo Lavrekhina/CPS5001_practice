@@ -1,4 +1,4 @@
-package linked_list;
+package week_1.plantwateringsystem.linked_list;
 
 class LinkedList {
     // Node definition

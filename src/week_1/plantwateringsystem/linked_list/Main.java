@@ -1,4 +1,4 @@
-package linked_list;
+package week_1.plantwateringsystem.linked_list;
 
 public class Main {
     public static void main(String[] args) {
